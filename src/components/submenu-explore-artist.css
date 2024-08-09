@@ -1,0 +1,91 @@
+.collection {
+  height: 7px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  min-width: 48;
+  width: auto;
+  align-self: unset;
+}
+.collection:hover {
+  font-family: var(--font-syne);
+  font-size: var(--font-size-2xs);
+  text-align: left;
+  color: var(--color-gray-500);
+  display: flex;
+  width: auto;
+  align-self: unset;
+  height: 7px;
+  min-width: 48;
+}
+.year {
+  height: 7px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  min-width: 22;
+  width: auto;
+  align-self: unset;
+}
+.year:hover {
+  font-family: var(--font-syne);
+  font-size: var(--font-size-2xs);
+  text-align: left;
+  color: var(--color-gray-500);
+  display: flex;
+  width: auto;
+  align-self: unset;
+  height: 7px;
+  min-width: 22;
+}
+.virtual-gallery {
+  height: 7px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  min-width: 65;
+  white-space: nowrap;
+  width: auto;
+  align-self: unset;
+}
+.virtual-gallery:hover {
+  font-family: var(--font-syne);
+  font-size: var(--font-size-2xs);
+  text-align: left;
+  color: var(--color-gray-500);
+  display: flex;
+  width: auto;
+  align-self: unset;
+  height: 7px;
+  min-width: 65;
+  white-space: nowrap;
+}
+.submenu-explore-artist {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: 0px var(--padding-lgi) var(--padding-7xs);
+  box-sizing: border-box;
+  gap: var(--gap-xl);
+  width: auto;
+  height: auto;
+  z-index: 1;
+  text-align: left;
+  font-size: var(--font-size-2xs);
+  color: var(--color-gray-500);
+  font-family: var(--font-syne);
+}
+.submenu-explore-artist:hover {
+  display: flex;
+  align-self: stretch;
+  width: auto;
+  height: auto;
+  flex-direction: row;
+  gap: var(--gap-xl);
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: 0px var(--padding-lgi) var(--padding-7xs);
+  box-sizing: border-box;
+}

@@ -1,0 +1,72 @@
+.filtre {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0%;
+  right: 0%;
+  bottom: 0%;
+  left: 0%;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-black);
+  display: flex;
+}
+.filtre:hover {
+  background-color: var(--color-black);
+  display: flex;
+  width: 100%;
+  height: 100%;
+  border-radius: var(--br-3xs);
+}
+.filtre-request-sent {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0%;
+  right: 0%;
+  bottom: 0%;
+  left: 0%;
+  display: flex;
+}
+.filtre-request-sent:hover {
+  display: flex;
+  width: 100%;
+  height: 100%;
+}
+.select {
+  position: absolute;
+  height: 7px;
+  width: 67px;
+  top: 33.33%;
+  left: 0%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1;
+}
+.select:hover {
+  font-family: var(--font-syne);
+  font-size: var(--font-size-2xs);
+  text-align: center;
+  color: var(--color-white);
+  display: flex;
+  width: 67px;
+  height: 7px;
+}
+.select-button {
+  height: 21px;
+  flex: 1;
+  position: relative;
+  display: flex;
+  gap: var(--gap-0);
+  z-index: 1;
+  text-align: center;
+  font-size: var(--font-size-2xs);
+  color: var(--color-white);
+  font-family: var(--font-syne);
+}
+.select-button:hover {
+  display: flex;
+  flex: 1;
+  height: 21px;
+  gap: var(--gap-0);
+}

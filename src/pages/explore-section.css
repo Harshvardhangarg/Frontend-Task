@@ -1,0 +1,294 @@
+.home-icon {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0px;
+  bottom: 0px;
+  left: 0px;
+  max-height: 100%;
+  display: flex;
+}
+.home-icon:hover {
+  display: flex;
+  width: 100%;
+  height: 100%;
+}
+.welcome {
+  margin: 0;
+}
+.welcome-name-txt-container {
+  width: 100%;
+}
+.welcome-name {
+  text-decoration: none;
+  width: 177px;
+  position: absolute;
+  margin: 0 !important;
+  top: 18px;
+  right: -22px;
+  font-weight: 700;
+  color: inherit;
+  display: flex;
+  align-items: center;
+  height: auto;
+  z-index: 1;
+}
+.welcome-name:hover {
+  font-weight: 700;
+  font-family: var(--font-syne);
+  font-size: var(--font-size-xl);
+  text-align: left;
+  color: var(--color-black);
+  display: flex;
+  width: 177px;
+  height: auto;
+}
+.send-a-message-icon {
+  width: 25px;
+  height: 25px;
+  position: relative;
+  display: flex;
+  gap: var(--gap-0);
+  z-index: 1;
+}
+.send-a-message-icon:hover {
+  display: flex;
+  width: 25px;
+  height: 25px;
+  gap: var(--gap-0);
+}
+.content-left {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-15xl);
+  width: auto;
+  align-self: unset;
+  height: auto;
+  transform: rotate(0deg);
+}
+.content-left:hover {
+  display: flex;
+  width: auto;
+  align-self: unset;
+  height: auto;
+  flex-direction: column;
+  gap: var(--gap-15xl);
+  align-items: flex-start;
+  justify-content: flex-start;
+  transform: rotate(0deg);
+}
+.main-content {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0px var(--padding-12xs) var(--padding-2xs);
+  box-sizing: border-box;
+  width: auto;
+  align-self: unset;
+  height: auto;
+  gap: var(--gap-0);
+  transform: rotate(0deg);
+}
+.main-content:hover {
+  display: flex;
+  width: auto;
+  align-self: unset;
+  height: auto;
+  flex-direction: row;
+  gap: var(--gap-0);
+  align-items: flex-start;
+  justify-content: flex-start;
+  transform: rotate(0deg);
+  padding: 0px var(--padding-12xs) var(--padding-2xs);
+  box-sizing: border-box;
+}
+.artwork-list {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-3xs);
+  max-width: 100%;
+  height: auto;
+  transform: rotate(0deg);
+}
+.artwork-list:hover {
+  display: flex;
+  flex: 1;
+  height: auto;
+  flex-direction: column;
+  gap: var(--gap-3xs);
+  align-items: flex-start;
+  justify-content: flex-start;
+  transform: rotate(0deg);
+  max-width: 100%;
+}
+.content-artwork {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0px 0px var(--padding-8xl) var(--padding-12xs);
+  box-sizing: border-box;
+  max-width: 100%;
+  width: auto;
+  height: auto;
+  gap: var(--gap-0);
+  transform: rotate(0deg);
+}
+.content-artwork:hover {
+  display: flex;
+  align-self: stretch;
+  width: auto;
+  height: auto;
+  flex-direction: row;
+  gap: var(--gap-0);
+  align-items: flex-start;
+  justify-content: flex-start;
+  transform: rotate(0deg);
+  padding: 0px 0px var(--padding-8xl) var(--padding-12xs);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.powered-by {
+  flex: 1;
+  position: relative;
+  display: flex;
+  height: auto;
+  z-index: 2;
+}
+.powered-by:hover {
+  font-family: var(--font-syne);
+  font-size: var(--font-size-6xs);
+  text-align: left;
+  color: var(--color-white);
+  display: flex;
+  flex: 1;
+  height: auto;
+}
+.powered-by-content {
+  width: 46px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: relative;
+  height: auto;
+  gap: var(--gap-0);
+  transform: rotate(0deg);
+}
+.powered-by-content:hover {
+  display: flex;
+  width: 46px;
+  height: auto;
+  flex-direction: row;
+  gap: var(--gap-0);
+  align-items: flex-start;
+  justify-content: flex-start;
+  transform: rotate(0deg);
+}
+.powered-by-wrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  width: auto;
+  height: auto;
+  gap: var(--gap-0);
+  transform: rotate(0deg);
+}
+.powered-by-wrapper:hover {
+  display: flex;
+  align-self: stretch;
+  width: auto;
+  height: auto;
+  flex-direction: row;
+  gap: var(--gap-0);
+  align-items: flex-start;
+  justify-content: flex-end;
+  transform: rotate(0deg);
+}
+.footer-content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-7xs);
+  height: auto;
+  transform: rotate(0deg);
+}
+.footer-content:hover {
+  display: flex;
+  flex: 1;
+  height: auto;
+  flex-direction: column;
+  gap: var(--gap-7xs);
+  align-items: flex-start;
+  justify-content: flex-start;
+  transform: rotate(0deg);
+}
+.footer {
+  width: 93px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0px var(--padding-12xs);
+  box-sizing: border-box;
+  height: auto;
+  gap: var(--gap-0);
+  transform: rotate(0deg);
+  font-size: var(--font-size-6xs);
+  color: var(--color-white);
+}
+.footer:hover {
+  display: flex;
+  width: 93px;
+  height: auto;
+  flex-direction: row;
+  gap: var(--gap-0);
+  align-items: flex-start;
+  justify-content: flex-start;
+  transform: rotate(0deg);
+  padding: 0px var(--padding-12xs);
+  box-sizing: border-box;
+}
+.explore-section {
+  width: 391px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-9xl) 0px var(--padding-10xs) var(--padding-5xl);
+  box-sizing: border-box;
+  gap: var(--gap-12xl);
+  line-height: normal;
+  letter-spacing: normal;
+  height: auto;
+  text-align: left;
+  font-size: var(--font-size-xl);
+  color: var(--color-black);
+  font-family: var(--font-syne);
+}
+.explore-section:hover {
+  display: flex;
+  width: 391px;
+  height: auto;
+  flex-direction: column;
+  gap: var(--gap-12xl);
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-9xl) 0px var(--padding-10xs) var(--padding-5xl);
+  box-sizing: border-box;
+  line-height: normal;
+  letter-spacing: normal;
+}

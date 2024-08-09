@@ -1,19 +1,30 @@
 # Frontend Design Assignment
 
+<<<<<<< HEAD
 ## Instructions
+=======
+Note: Please ensure you have installed <code><a href="https://nodejs.org/en/download/">nodejs</a></code>
+
+>>>>>>> Incoming
 
 1. **Create Your Repository:**
+To preview and run the project on your device:
 
+
+<<<<<<< HEAD
    - Click on the "Use this template" button at the top of this repository to create your own repository from this template.
+
 2. **Clone Your Repository:**
 
    - Clone your repository to your local machine:
      ```bash
      git clone https://YOUR-GIT-HOST/YOUR-USERNAME/YOUR-REPOSITORY-NAME.git
      ```
+
 3. **Implement the Design:**
 
    - Replicate the provided Figma design using the frontend framework of your choice.
+
 4. **Push Your Changes:**
 
    - Push your changes to your GitHub repository:
@@ -22,6 +33,7 @@
      git commit -m "Initial implementation"
      git push origin main
      ```
+
 5. **Submit Your Repository Link:**
 
    - Submit the link to your repository using this form - https://forms.gle/WLBJwweKuHDUAZc29
@@ -44,3 +56,9 @@ https://www.figma.com/design/mW0qBuALhYrajea8Z3duQx/Frontend-Assessment?t=MwBjko
 - Performance.
 
 There is no expectation but you will catch our eye amongst the pool of candidates if you go above and beyond in any manner (e.g. responsive design, live demo link, setup documentation, etc.)
+=======
+1. Open project folder in <a href="https://code.visualstudio.com/download">Visual Studio Code</a>
+2. In the terminal, run `npm install`
+3. Run `npm start` to view project in browser
+
+>>>>>>> Incoming
